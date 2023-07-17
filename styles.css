@@ -113,9 +113,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+   
     width: 300px;
 }
+
 /* Free Membership */
 .freemember {
     display: flex;
@@ -154,6 +155,7 @@
 .freemember-child img{
     margin-bottom: 20px;
 }
+/* F.A.Q */
 .faq{
     display: flex;
     flex-direction: column;
@@ -166,4 +168,23 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
+}
+/* Footer */
+.footer{
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    background: #071629;
+    color: rgb(129, 128, 128);
+    text-align: center;
+}
+.footer p{
+    color: gray;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+    margin: 60px;
 }
