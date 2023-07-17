@@ -67,3 +67,51 @@
     color: white;
     margin-left: 20px;
 }
+/* Person Name */
+.personName{
+    display: flex;
+    background-color: #C271FF;
+    justify-content: center;
+}
+.personName-one{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+.personName-two{
+    width: 75%;
+    color: white;
+
+/* Most Popular tutorials */
+}.sectionTwo {
+    display: flex;
+    flex-direction: column;
+}
+.sectionTwo-text{
+    text-align: center;
+}
+.sectionTwo-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    margin: 60px;
+
+}
+.sectionTwo-pics p{
+    margin-top: 20px;
+    color: black;
+   
+}
+.sectionTwo-pics p:nth-child(4){
+    margin-top: 10px;
+}
+.sectionTwo-pics span{
+    margin-top: 50px;
+}
+.sectionTwo-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
