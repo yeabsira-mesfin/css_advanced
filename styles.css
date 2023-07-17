@@ -77,6 +77,7 @@
     width: 25%;
     display: flex;
     justify-content: flex-end;
+    margin-top: px;
 }
 .personName-two{
     width: 75%;
@@ -114,4 +115,55 @@
     justify-content: center;
     align-items: center;
     width: 300px;
+}
+/* Free Membership */
+.freemember {
+    display: flex;
+    flex-direction: column;
+    background-color: #071629;
+    color: white
+    
+}
+.freemember-text{
+    text-align: center;
+    margin-top: 40px;
+}
+.freemember-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    margin: 60px;
+
+}
+.freemember-pics p{
+    margin-top: 20px
+}
+.freemember-pics p:nth-child(4){
+    margin-top: 10px;
+}
+.freemember-pics span{
+    margin-top: 50px;
+}
+.freemember-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.freemember-child img{
+    margin-bottom: 20px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+}
+.faq-one{
+    display: flex;
+    justify-content: space-around;
+}
+.faq-two{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
 }
